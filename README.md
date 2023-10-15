@@ -19,6 +19,7 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
     - `nano`
     - `tmux`
     - `w3m`
+1. opens the `iterm2` downloads page so you can download it (download URL depends on current stable version so easiest to just do this one manually)
 
 ## Just dotfiles
 
