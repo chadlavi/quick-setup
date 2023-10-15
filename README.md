@@ -40,7 +40,7 @@ EOF
 Set your `.vimrc` to the contents of [./vimrc](./vimrc)
 
 ```sh
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" > ~/.nanorc
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" >> ~/.nanorc
 ```
 
 ### `.nanorc`
@@ -48,7 +48,7 @@ echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vim
 Set your `.nanorc` to the contents of [./nanorc](./nanorc)
 
 ```sh
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" > ~/.nanorc
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" >> ~/.nanorc
 ```
 
 ## See also
