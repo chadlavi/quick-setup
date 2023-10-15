@@ -12,7 +12,7 @@ fi
 EOF
 
 # set vimrc
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" >> ~/.nanorc
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" >> ~/.vimrc
 
 # set nanorc
 echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" >> ~/.nanorc
