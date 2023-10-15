@@ -1,0 +1,10 @@
+include /opt/homebrew/Cellar/nano/7.2/share/nano/css.nanorc
+include /opt/homebrew/Cellar/nano/7.2/share/nano/html.nanorc
+include /opt/homebrew/Cellar/nano/7.2/share/nano/javascript.nanorc
+include /opt/homebrew/Cellar/nano/7.2/share/nano/nanorc.nanorc
+include /opt/homebrew/Cellar/nano/7.2/share/nano/sh.nanorc
+set constantshow
+set linenumbers
+set mouse
+set softwrap
+set tabsize 4
