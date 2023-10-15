@@ -1,0 +1,9 @@
+alias fuck='sudo $(fc -ln -1)'
+alias claer="clear"
+alias clera="clear"
+alias rel="source ~/.zshrc"
+
+ddg() {
+  q="${@}"
+  w3m "https://duckduckgo.com/lite/?q=$q&kd=-1"
+}

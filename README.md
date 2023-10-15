@@ -11,10 +11,24 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
 1. installs `homebrew`
     - uses homebrew to install `git` `vim` `nano` `tmux`, and `w3m`
 1. installs `ohmyzsh`
+1. sets some `.zsh_aliases` and sources them in `.zshrc`
 1. sets a `.vimrc`
 1. sets a `.nanorc`
 
 ## Just dotfiles
+
+### `.zsh_aliases`
+
+Set some zsh aliases and source them in `.zshrc`
+
+```sh
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/zsh_aliases)" >> ~/.zsh_aliases
+cat << 'EOF' >> .zshrc
+if [ -f ~/.zsh_aliases ]; then
+  source ~/.zsh_aliases
+fi
+EOF
+```
 
 ### `.vimrc`
 
