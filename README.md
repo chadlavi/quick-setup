@@ -13,3 +13,21 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
 1. installs `ohmyzsh`
 1. sets a `.vimrc`
 1. sets a `.nanorc`
+
+## Just dotfiles
+
+### `.vimrc`
+
+Set your `.vimrc` to the contents of <./vimrc>
+
+```sh
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" > ~/.nanorc
+```
+
+### `.nanorc`
+
+Set your `.nanorc` to the contents of <./nanorc>
+
+```sh
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" > ~/.nanorc
+```
