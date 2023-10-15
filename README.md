@@ -8,12 +8,17 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
 
 ## What does it do?
 
-1. installs `homebrew`
-    - uses homebrew to install `git` `vim` `nano` `tmux`, and `w3m`
 1. installs `ohmyzsh`
 1. sets some `.zsh_aliases` and sources them in `.zshrc`
 1. sets a `.vimrc`
 1. sets a `.nanorc`
+1. installs `homebrew`
+1. uses homebrew to install a few key command line utils:
+    - `git`
+    - `vim`
+    - `nano`
+    - `tmux`
+    - `w3m`
 
 ## Just dotfiles
 
