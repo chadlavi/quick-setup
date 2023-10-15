@@ -31,3 +31,8 @@ Set your `.nanorc` to the contents of [./nanorc](./nanorc)
 ```sh
 echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" > ~/.nanorc
 ```
+
+## See also
+
+- <https://brew.sh/>
+- <https://ohmyz.sh/#install>
