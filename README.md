@@ -18,7 +18,7 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
 
 ### `.vimrc`
 
-Set your `.vimrc` to the contents of <./vimrc>
+Set your `.vimrc` to the contents of [./vimrc](./vimrc)
 
 ```sh
 echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" > ~/.nanorc
@@ -26,7 +26,7 @@ echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vim
 
 ### `.nanorc`
 
-Set your `.nanorc` to the contents of <./nanorc>
+Set your `.nanorc` to the contents of [./nanorc](./nanorc)
 
 ```sh
 echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" > ~/.nanorc
