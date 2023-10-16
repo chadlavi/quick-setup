@@ -25,3 +25,18 @@ brew install git vim nano tmux w3m
 
 # open iTerm2 downloads page
 open "https://iterm2.com/downloads.html"
+
+# recommend iTerm2 settings
+
+cat << 'EOF'
+
+---
+
+You'll want to set up a few things in iTerm2:
+
+1. use "natural text editing"
+  - go to Preferences > Profiles > Keys > Key Mappings. 
+  - Use the "Presets..." menu to select "Natural Text Editing".
+2. make iTerm2 default terminal
+  - iTerm2 > Make iTerm2 Default Terminal (or keyboard shortcut CTRL-SHIFT-CMD-\)
+EOF
