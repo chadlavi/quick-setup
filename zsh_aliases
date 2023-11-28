@@ -7,3 +7,7 @@ ddg() {
   q="${@}"
   w3m "https://duckduckgo.com/lite/?q=$q&kd=-1"
 }
+
+qr() {
+  qrencode "$1" -t ANSIUTF8 -o -;
+}
