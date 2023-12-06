@@ -22,6 +22,7 @@ xcode-select --install && \
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && \
 # install a few essential programs with homebrew
 brew install git vim nano tmux w3m qrencode
+brew install --cask raycast alt-tab
 
 # open iTerm2 downloads page
 open "https://iterm2.com/downloads.html"
