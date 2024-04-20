@@ -17,6 +17,9 @@ echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vim
 # set nanorc
 echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" >> ~/.nanorc
 
+# set gitconfig
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/gitconfig)" >> ~/.gitconfig
+
 # install homebrew
 xcode-select --install && \
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && \

@@ -1,0 +1,12 @@
+[user]
+	email = chad@chadlavimoniere.com
+	name = Chad Lavimoniere
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	excludesFile = ~/.gitignore
+[alias]
+	co = checkout
+	unstage = reset HEAD --
