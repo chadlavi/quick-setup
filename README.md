@@ -10,8 +10,6 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
 
 1. installs `ohmyzsh`
 1. sets some `.zsh_aliases` and sources them in `.zshrc`
-1. sets a `.vimrc`
-1. sets a `.nanorc`
 1. installs `homebrew`
 1. uses homebrew to install a few key command line utils:
     - `git`
@@ -19,6 +17,9 @@ sh -c "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/se
     - `nano`
     - `tmux`
     - `w3m`
+1. sets a `.gitconfig`
+1. sets a `.vimrc`
+1. sets a `.nanorc`
 1. opens the `iterm2` downloads page so you can download it (download URL depends on current stable version so easiest to just do this one manually)
 
 ## Just dotfiles
@@ -34,6 +35,14 @@ if [ -f ~/.zsh_aliases ]; then
   source ~/.zsh_aliases
 fi
 EOF
+```
+
+### `.gitconfig`
+
+Set your `.gitconfig` to the contents of [./gitconfig](./gitconfig)
+
+```sh
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/gitconfig)" >> ~/.gitconfig
 ```
 
 ### `.vimrc`
@@ -56,3 +65,4 @@ echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nan
 
 - <https://brew.sh/>
 - <https://ohmyz.sh/#install>
+

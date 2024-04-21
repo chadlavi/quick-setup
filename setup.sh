@@ -11,21 +11,21 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 EOF
 
-# set vimrc
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" >> ~/.vimrc
-
-# set nanorc
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" >> ~/.nanorc
-
-# set gitconfig
-echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/gitconfig)" >> ~/.gitconfig
-
 # install homebrew
 xcode-select --install && \
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && \
 # install a few essential programs with homebrew
 brew install git vim nano tmux w3m qrencode
 brew install --cask raycast alt-tab
+
+# set gitconfig
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/gitconfig)" >> ~/.gitconfig
+
+# set vimrc
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/vimrc)" >> ~/.vimrc
+
+# set nanorc
+echo "$(curl -fsSL https://gitlab.com/chadlavimoniere/quick-setup/-/raw/main/nanorc)" >> ~/.nanorc
 
 # open iTerm2 downloads page
 open "https://iterm2.com/downloads.html"
