@@ -28,6 +28,8 @@ set showmatch
 set wildmenu
 set wildmode=list:longest
 syntax on
+set smartindent
+set tw=72
 let g:markdown_fenced_languages = ['html', 'css', 'javascript', 'sh']
 
 " Clear status line when vimrc is reloaded.
